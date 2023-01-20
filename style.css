@@ -64,9 +64,9 @@ body {
     line-height: 1.4;
 }
 
-.main-contents-section2 {
+.main-contents-div {
     font-size: 20px;
-    margin: 10px 10px;
+    margin: 10px 20px;
 }
 
 #flashing {
@@ -78,14 +78,20 @@ body {
 .main-contents-article {
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    margin: 10px 20px;
+    margin-left: 20px;
 }
 
+.main-contents-article-title {
+    font-size: 25px;
+}
 
-/*
-.main-contents-div-article {
-    flex-direction: row;
-}*/
+.main-contents-articlesubtitle {
+    font-size: 20px;
+}
+
+.main-contents-articlesubtitle-paragraph {
+    font-size: 12px;
+}
 
 .main-contents-article-div1 {
     float: left;
@@ -178,6 +184,8 @@ body {
 }
 
 .footer {
+    margin-top: 48px;
+    border-top: 0.4px solid #a01a8a;
     display: flex;
     flex-direction: row;
     align-items: center;
